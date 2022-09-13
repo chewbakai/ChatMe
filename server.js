@@ -21,7 +21,7 @@ const io = socketio(server);
 // Set static folder
 app.use(express.static(path.join(__dirname, "public")));
 
-const botName = "ChatCord Bot";
+const botName = "ChatMe Bot";
 
 (async () => {
   pubClient = createClient({ url: "redis://127.0.0.1:6379" });
